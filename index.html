@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiculum Vitae</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/4365727aeb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--<h1 class="titulo">Curriculum Vitae</h1>-->
+    <div class="contenedor-foto">
+        <img class="foto" src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Max_George_2012.jpg/640px-Max_George_2012.jpg>
+    </div>
+    <h1 class="nombre">Max Tennysom</h1>
+    <nav class="navbar navbar-light">
+        <div class=" gap-2 mx-auto"> 
+            <div class="float-start">
+                <button type="button" id="mostrarDatosPersonales" class="btn btn-lg btn-outline-primary"><i class="fa-regular fa-user"></i>    Datos Personales</button>  
+                <ul class="listas" id="contenidoDatosPersonales">
+                    <li class="datos">Edad: <span class="datosPersonales">33</span></li>
+                    <li class="datos">DNI: <span class="datosPersonales">26406982</span></li>
+                    <li class="datos">Nacimiento: <span class="datosPersonales">07/07/1989</span></li>
+                    <li class="datos">Celular: <span class="datosPersonales">3516239874</span></li>
+                    <li class="datos">Dirección: <span class="datosPersonales">Belgrano 645</span></li>
+                    <li class="datos">Barrio: <span class="datosPersonales">Centro</span></li>
+                    <li class="datos">Localidad: <span class="datosPersonales">Córdoba</span></li>
+                    <li class="datos">Nacionalidad: <span class="datosPersonales">Argentino</span></li>
+                    <li class="datos">Estado Civil: <span class="datosPersonales">Soltero</span></li>
+                    <button type="button" id="ocultarDatosPersonales" class="btn btn-outline-primary">Ocultar</button>  
+                </ul>
+            </div>
+
+            <div class="float-start">
+                <button type="button" id="mostrarDatosDeEstudio" class="btn btn-lg btn-outline-info"><i class="fa-solid fa-graduation-cap"></i>   Formación</button>
+                <ul class="listas" id="contenidoDatosDeEstudio">
+                    <li class="datos">Nivel Primario: <span class="datosDeEstudios">IPEM 11 - Completo</span></li>
+                    <li class="datos">Nivel Secundario: <span class="datosDeEstudios">IPEM 167 - CBU y CE - Completo</span></li>
+                    <li class="datos">Nivel Terciario: <span class="datosDeEstudios">UTN - Tecnicatura en Desarrollo Web - Cursando</span></li>
+                    <button type="button" id="ocultarDatosDeEstudio" class="btn btn-outline-info">Ocultar</button>  
+                </ul>
+            </div>  
+            
+            <div class="float-start">
+                <button type="button" id="mostrarDatosDeTrabajo" class="btn btn-lg btn-outline-warning"><i class="fa-solid fa-industry"></i>  Experiencia</button>
+                <ul class="listas" id="contenidoDatosDeTrabajo">
+                    <li class="datosDeTrabajo">2000-2010: Mozo en Starbacks</li>
+                    <li class="datosDeTrabajo">2010-2018: Vendedor en Fravega</li>
+                    <li class="datosDeTrabajo">2018-2021: Callcenter</li>
+                    <button type="button" id="ocultarDatosDeTrabajo" class="btn btn-outline-warning">Ocultar</button>  
+                </ul>
+            </div> 
+
+            <div class="float-start">
+                <button type="button" id="mostrarMasInfo" class="btn btn-lg btn-outline-success"><i class="fa-regular fa-plus"></i>  Algo más...</button>
+                <ul class="listas" id="contenidoMasInfo">
+                    <li class="descripcion"> “Soy capaz de adaptarme a cualquier situación. Me siento muy bien en un entorno fluctuante y transformo obstáculos inesperados en un trampolín para logros “.</li>
+                    <li class="descripcion"> “Me gusta innovar de forma continua para crear valor. Veo oportunidades donde otros ven nada: convierto ideas en proyectos, y los proyectos en éxito “.</li>
+                    <li class="descripcion"> “Tengo una mente muy creativa. Siempre tengo una perspectiva única al abordar un problema debido a mi amplia gama de intereses y aficiones. La creatividad es la fuente de la diferenciación y, por tanto, en la raíz de la ventaja competitiva. “</li>
+                    <li class="descripcion"> “Nunca me desvío del objetivo. Me esfuerzo para ofrecer un trabajo de calidad a tiempo, todo el tiempo”.</li>
+                    <li class="descripcion"> “Conozco este trabajo dentro y por fuera. Con muchos años de experiencia, no hay duda que seré eficiente en el trabajo. Puedo aportar un valor añadido para la empresa “.</li>
+                    <li class="descripcion"> “Tengo un alto nivel de motivación para trabajar aquí. He estudiado toda la historia de la compañía y he observado sus estrategias de negocio. Como yo también soy un cliente desde hace tiempo, tuve la oportunidad de escribir este informe con algunas sugerencias sobre cómo mejorar sus servicios “.</li>
+                    <button type="button" id="ocultarMasInfo" class="btn btn-outline-success">Ocultar</button>  
+                </ul>
+            </div> 
+        </div>
+    </nav>
+
+    <script src="js/curriculum.js"></script>
+</body>
+</html>
